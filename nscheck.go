@@ -12,6 +12,7 @@ import (
 	"mime"
 	"net"
 	"net/http"
+	"net/http2"
 	"net/http/httptrace"
 	"net/url"
 	"os"
@@ -21,8 +22,6 @@ import (
 	"strconv"
 	"strings"
 	"time"
-
-	"golang.org/x/net/http2"
 
 	"github.com/fatih/color"
 )
